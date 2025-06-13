@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apartment Panda – Cluj-Napoca</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background: #121212; color: #eee; }
+    .hero { background: url('images/hero.jpg') center/cover no-repeat; height: 60vh; display:flex; align-items:center; justify-content:center; text-align:center; }
+    .hero h1 { background: rgba(0,0,0,0.5); padding:20px; font-size:2.5rem; }
+    .container { max-width:800px; margin:40px auto; padding:0 20px; }
+    .gallery { display:flex; flex-wrap: wrap; gap:10px; }
+    .gallery img { width: calc(33% - 10px); height:auto; border-radius:4px; }
+    .buttons { display:flex; flex-wrap: wrap; gap:10px; margin:20px 0; }
+    .buttons a { flex:1; text-decoration:none; background:#fbc02d; color:#121212; padding:15px; border-radius:4px; text-align:center; font-weight:bold; }
+    .footer { text-align:center; padding:20px 0; font-size:0.9rem; color:#aaa; }
+    @media(max-width:600px){
+      .gallery img { width:100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Apartment Panda, Cluj-Napoca</h1>
+  </div>
+
+  <div class="container">
+    <p>Bine ai venit la <strong>Apartment Panda</strong> – un apartament modern și primitor, ideal pentru sejururi în inima Clujului. Design minimalist, confort și locație excelentă.</p>
+
+    <div class="buttons">
+      <a href="https://airbnb.com/h/apartmentpanda" target="_blank">Rezervă pe Airbnb</a>
+      <a href="https://wa.me/40742019934" target="_blank">Contact pe WhatsApp</a>
+      <a href="mailto:apartment.panda29@gmail.com">Trimite e‑mail</a>
+    </div>
+
+    <h2>Galerie foto</h2>
+    <div class="gallery">
+      <img src="images/img1.jpg" alt="Living">
+      <img src="images/img2.jpg" alt="Dormitor">
+      <img src="images/img3.jpg" alt="Bucătărie">
+      <img src="images/img4.jpg" alt="Baie">
+      <img src="images/img5.jpg" alt="Vedere stradală">
+      <img src="images/img6.jpg" alt="Detaliu decor">
+    </div>
+
+    <p class="footer">© 2025 Apartment Panda – Cluj-Napoca. Contact direct: +40 742 019 934 | apartment.panda29@gmail.com</p>
+  </div>
+
+</body>
+</html>
