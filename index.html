@@ -1,3 +1,5 @@
+Copy
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -5,13 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Apartment Panda – Cluj-Napoca</title>
   <style>
-    body { margin:0; font-family: Arial, sans-serif; background: #121212; color: #eee; }
-    
-    .hero { 
-      background: url('images/hero.jpeg') center/cover no-repeat; 
-      height: 60vh; 
-      display: flex; 
-      flex-direction: column; 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #eee;
+    }
+
+    .hero {
+      background: url('images/hero.jpeg') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
       justify-content: flex-end; /* bottom alignment */
       align-items: center; /* center horizontally */
       padding: 20px;
@@ -20,40 +27,81 @@
 
     /* Title at bottom with panda emoji */
     .hero h1 {
-      background: rgba(0,0,0,0.5);
+      background: rgba(0, 0, 0, 0.5);
       padding: 20px;
       font-size: 2.5rem;
       margin: 0;
     }
 
-    /* Main title is hidden now, optional: comment out if not needed */
-    /* .hero h1 { display: none; } */
+    /* Container styles */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-    .container { max-width:800px; margin:40px auto; padding:0 20px; }
-    .gallery { display:flex; flex-wrap: wrap; gap:10px; }
-    .gallery img { width: calc(33% - 10px); height:auto; border-radius:4px; }
-    .buttons { display:flex; flex-wrap: wrap; gap:10px; margin:20px 0; }
-    .buttons a { flex:1; text-decoration:none; background:#fbc02d; color:#121212; padding:15px; border-radius:4px; text-align:center; font-weight:bold; }
-    .footer { text-align:center; padding:20px 0; font-size:0.9rem; color:#aaa; }
+    /* Gallery styles */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gallery img {
+      width: calc(33% - 10px);
+      height: auto;
+      border-radius: 4px;
+    }
 
-    @media(max-width:600px){
-      .gallery img { width:100%; }
+    /* Buttons styles */
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .buttons a {
+      flex: 1;
+      min-width: 150px;
+      text-decoration: none;
+      background: #fbc02d;
+      color: #121212;
+      padding: 15px;
+      border-radius: 4px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    /* Footer styles */
+    .footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media(max-width: 600px){
+      .gallery img {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
   <div class="hero">
-    <h1>Apartment 🐼 Cluj-Napoca</h1>
+    <h1>🐼</h1>
   </div>
 
   <div class="container">
-    <p>Bine ai venit la <strong>Apartment Panda</strong> – un apartament modern și primitor, ideal pentru sejururi în inima Clujului. Design minimalist, confort și locație excelentă.</p>
+    <p>
+      Bine ai venit la <strong>Apartment Panda</strong> – un apartament modern și primitor, ideal pentru sejururi în inima Clujului. Design minimalist, confort și locație excelentă.
+    </p>
 
     <div class="buttons">
       <a href="https://airbnb.com/h/apartmentpanda" target="_blank">Rezervă pe Airbnb</a>
       <a href="https://wa.me/40742019934" target="_blank">Contact pe WhatsApp</a>
       <a href="mailto:apartment.panda29@gmail.com">Trimite e‑mail</a>
+      <a href="https://www.booking.com/hotel/ro/panda-apartment-zorilor.ro.html" target="_blank">Rezervă pe Booking.com</a>
     </div>
 
     <h2>Galerie foto</h2>
@@ -71,3 +119,4 @@
 
 </body>
 </html>
+
